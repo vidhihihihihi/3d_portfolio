@@ -14,7 +14,6 @@ Check out the live demo of my 3D Portfolio [Click Here](https://vidhigupta.netli
 - [Technologies](#technologies)
 - [Skills](#skills)
 - [Experience](#experience)
-- [Projects](#projects)
 - [Contact](#contact)
 
 ## Description
@@ -68,10 +67,6 @@ This project is built using the following technologies:
 ## Experience
 
 ![Untitled2323](https://github.com/vidhihihihihi/3d_portfolio/assets/92211866/e249f595-e73a-42b4-8792-9b4490eafea4)
-
-## Projects
-
-![image](https://github.com/vidhihihihihi/3d_portfolio/assets/92211866/bce97fce-d864-4da6-a77e-e8d555ad4677)
 
 
 ## Contact
