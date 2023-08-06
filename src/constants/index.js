@@ -19,7 +19,7 @@ import {
   sbgblv,
   kooe,
   taxnodes,
-  carrent,
+  netflixclone,
   jobit,
   tripguide,
   threejs,
@@ -198,25 +198,25 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "NETFLIX Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A Netflix clone built using React. It fetches the data from TMDB (The Movie Database) API.",
     tags: [
       {
-        name: "react",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "api",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "firebase",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: netflixclone,
+    source_code_link: "https://github.com/vidhihihihihi/netflix-clone",
   },
   {
     name: "Job IT",

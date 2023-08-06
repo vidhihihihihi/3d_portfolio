@@ -25,8 +25,7 @@ import tasko from "./company/tasko.png";
 import kooe from "./company/kooe.png";
 import sbgblv from "./company/sbgblv.png";
 import taxnodes from "./company/taxnodes.png";
-
-import carrent from "./carrent.png";
+import netflixclone from "./netflixclone.jpeg";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -56,7 +55,7 @@ export {
   sbgblv,
   kooe,
   taxnodes,
-  carrent,
+  netflixclone,
   jobit,
   tripguide,
 };
