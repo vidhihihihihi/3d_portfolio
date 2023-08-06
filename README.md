@@ -29,6 +29,8 @@ Welcome to my 3D Portfolio built using Three.js! This portfolio showcases my ski
 
 ![Image](https://github.com/vidhihihihihi/3d_portfolio/assets/92211866/c845e493-2284-4760-b6a2-daf86a64d35e)
 
+![smds](https://github.com/vidhihihihihi/3d_portfolio/assets/92211866/f4d3bd13-65f4-46d1-9b49-125b0c9b2fa4)
+
 
 ## Usage
 
