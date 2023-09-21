@@ -6,7 +6,7 @@ import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
-const ProjectCard =( { index, name, description, tags, image, source_code_Link, }) =>{
+const ProjectCard =( { index, name, description, tags, image, source_code_link, }) =>{
   return(
     <motion.div variants={fadeIn("up","spring",index*0.5,0.75 )}>
       <Tilt
@@ -24,7 +24,7 @@ const ProjectCard =( { index, name, description, tags, image, source_code_Link, 
         />
         <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
           <div
-            onClick={()=>window.open (source_code_Link,"_blank")}
+            onClick={()=>window.open (source_code_link, "_blank")}
             className="black-gradient w-10 h-10 rounded-full  flex justify-center items-center cursor-pointer"
           >
            <img
@@ -41,13 +41,15 @@ const ProjectCard =( { index, name, description, tags, image, source_code_Link, 
       </h3>
       </div>
       <div className="mt-4 flex flex-wrap gap-2">
-        {tags.map((tag)=>(
-          <p key={tag.name}
-          className={'text-[14px] ${tag.color}'} >
-           #{tag.name}
-          </p>
-        ))}
-      </div>
+					{tags.map((tag) => (
+						<p
+							key={`${name}-${tag.name}`}
+							className={`text-[14px] ${tag.color}`}
+						>
+							#{tag.name}
+						</p>
+					))}
+				</div>
       </Tilt>
     </motion.div>
   )

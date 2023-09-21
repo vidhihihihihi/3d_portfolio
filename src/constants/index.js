@@ -20,10 +20,11 @@ import {
   kooe,
   taxnodes,
   netflixclone,
-  jobit,
-  tripguide,
+  finfindr,
   threejs,
+  moments,
 } from "../assets";
+
 
 export const navLinks = [
   {
@@ -219,46 +220,46 @@ const projects = [
     source_code_link: "https://github.com/vidhihihihihi/netflix-clone",
   },
   {
-    name: "Job IT",
+    name: "Moments",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A responsive web application where Authorized users allowed to post interesting events that happened in their lives.",
     tags: [
       {
-        name: "react",
+        name: "react+redux",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "EXPRESS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: moments,
+    source_code_link: "https://github.com/vidhihihihihi/moments",
   },
   {
-    name: "Trip Guide",
+    name: "FinFindr",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "It is MVP which is a platform created for the investors and investment advisors where they can make business connections for their benefits.",
     tags: [
       {
-        name: "nextjs",
+        name: "UI/UX",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Authentication",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Chat",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: finfindr,
+    source_code_link: "https://github.com/vidhihihihihi/",
   },
 ];
 
